@@ -1,1 +1,1 @@
-# viraj_blog
+# A Blog about Photography (Friend)

@@ -1,4 +1,4 @@
-![Logo](https://cdn.discordapp.com/attachments/794818958686552145/911860790859018291/unknown.png)
+![Logo](https://cdn.discordapp.com/attachments/794818958686552145/911862524549423134/poster.jpeg)
 # A Blog about Photography (Viraj Mehta)
 
 

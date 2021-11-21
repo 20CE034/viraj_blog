@@ -10,12 +10,11 @@ body {
 }
 .header {
   overflow: hidden;
-  background-image: url(https://cdn.discordapp.com/attachments/794818958686552145/887397115033157692/unknown.png?auto=compress&cs=tinysrgb&h=200&w=200);
+  background-image: url(./Images/Header.jpg);
   background-size: 1700px 310px;
   padding: 10px 10px;
-  margin-top: -50px;
-  margin-bottom:-10px"
-  
+  background-repeat: no-repeat;
+  background-size:cover ;
   /* margin: 0px;
   padding: 0px;
   height: 20em;
@@ -74,7 +73,7 @@ body {
         width:50%;
         height:850px;
         border-spacing:0 0;
-        background-image: url(https://cdn.discordapp.com/attachments/794818958686552145/882492673318068274/IMG_20210901_103920_589-01.jpeg);
+        background-image: url();
         background-size: 1000px 850px;
         
       }
@@ -85,7 +84,7 @@ body {
         width:50%;
         height:850px;
         border-spacing:0 0;
-        background-image: url(https://cdn.discordapp.com/attachments/794818958686552145/882489718560940042/IMG_20210901_102739_557-01.jpeg?auto=compress&cs=tinysrgb&h=700&w=200);
+        background-image: url();
       
     }
     h1{
@@ -95,8 +94,8 @@ body {
 footer {
 text-align: center;
 padding: 3px;
-background-image: linear-gradient(to right, rgba(4, 58, 138, 0.493), rgb(10, 87, 187));
-color: rgb(10, 9, 9);
+background-color: black;
+color:#474e5d;
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -120,8 +119,8 @@ outline: none;
 
 /* Set a style for all buttons */
 button {
-background-color: #04AA6D;
-color: white;
+  background-color: #1eff00;
+  color: rgb(255, 251, 0);
 padding: 14px 20px;
 margin: 8px 0;
 border: none;
@@ -132,6 +131,9 @@ opacity: 0.9;
 
 button:hover {
 opacity:1;
+background-color: #ff0606;
+color: rgb(0, 38, 255);
+
 }
 
 /* Extra styles for the cancel button */
@@ -379,8 +381,10 @@ abbr[title] {
 }
 
 .bg{
-  background-image: url(https://cdn.discordapp.com/attachments/794818958686552145/887398498255917096/IMG_20210416_155639_742.jpg);
-  background-size:1575px 1700px 
+  background-image: url(./Images/background.jpeg);
+  background-size:1575px 1700px ;
+  background-repeat: no-repeat;
+  background-size:cover ;
 }
 
 
@@ -409,12 +413,12 @@ abbr[title] {
 
 .tdtext3{
   font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
-  font-size: 80px;
-  color: rgb(255, 145, 0);
+  font-size: 50px;
+  color: rgb(18, 57, 233);
   text-shadow:     0 1px 0 rgb(100, 214, 195),
 	                 0 2px 0 rgb(156, 84, 173),
 	                 0 3px 0 rgb(156, 84, 173),
-	                 0 4px 0 rgb(156, 84, 173),
+	                 0 4px 0 rgb(27, 27, 27),
 	                 0 5px 0 rgb(156, 84, 173),
 	                 0 6px 0 rgb(156, 84, 173),
 	                 0 7px 0 rgb(156, 84, 173),
@@ -422,8 +426,9 @@ abbr[title] {
 	
 	                 0 0 5px rgba(0,0,0,.05),
 	                0 1px 3px rgba(0,0,0,.2),
-	                0 3px 5px rgba(0,0,0,.2),
-	               0 5px 10px rgba(0,0,0,.2),
-	              0 10px 10px rgba(0,0,0,.2),
-	              0 20px 20px rgba(0,0,0,.3);
+
+}
+
+.date2{
+  padding-left: 10px;
 }

@@ -1,1 +1,1 @@
-# A Blog about Photography (Friend)
+# A Blog about Photography (Viraj Mehta)

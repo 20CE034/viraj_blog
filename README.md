@@ -24,7 +24,6 @@ If you have any feedback, please reach me at exlphy@gmail.com
 
 - [@captured_by_virajmehta](https://www.instagram.com/captured_by_virajmehta/?hl=en)
 
-- 
 
 
 ## Authors

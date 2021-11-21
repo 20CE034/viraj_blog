@@ -3,7 +3,7 @@
 
 # Link to site 
 
-[Click Here]() 
+[Click Here](https://plushb9rry.github.io/viraj_blog/) 
 
 
 ## 🚀 Roadmap

@@ -18,7 +18,7 @@
   
 ## Feedback
 
-If you have any feedback, please reach me at exlphy@gmail.com or v95866@gmail.com .
+If you have any feedback, please reach us at exlphy@gmail.com or v95866@gmail.com .
 
 
 ## References

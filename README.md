@@ -18,7 +18,7 @@
   
 ## Feedback
 
-If you have any feedback, please reach me at exlphy@gmail.com
+If you have any feedback, please reach me at exlphy@gmail.com or v95866@gmail.com .
 
 
 ## References
@@ -30,3 +30,4 @@ If you have any feedback, please reach me at exlphy@gmail.com
 ## Authors
 
 - [@Plushb9rry](https://github.com/Plushb9rry)
+- [@1VViraj](https://github.com/1VViraj)

@@ -36,5 +36,5 @@ If you have any feedback, please reach us at exlphy@gmail.com or v95866@gmail.co
 
 ## Authors
 
-- [@Plushb9rry](https://github.com/Plushb9rry)
+- [@20CE034](https://github.com/20CE034)
 - [@1VViraj](https://github.com/1VViraj)

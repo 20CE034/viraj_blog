@@ -1,9 +1,8 @@
-* {box-sizing: border-box;}
-    
+
 body { 
   margin: 0px;
   padding: 0px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Raleway';
 }
 #grad {
   background-image: linear-gradient(red, rgb(0, 255, 0), rgb(6, 238, 255));
@@ -15,12 +14,32 @@ body {
   padding: 10px 10px;
   background-repeat: no-repeat;
   background-size:cover ;
-  /* margin: 0px;
-  padding: 0px;
-  height: 20em;
-  background-color: #C0C0C0; */
 }
-
+img {
+  pointer-events: none;
+}
+.ul1{
+  text-decoration: none;
+  float:left;
+  font-weight: bolder;
+  color: black;
+  padding-left:-20px;
+}
+.font-ul{
+  font-size: 30px;
+  padding-left: 10px;
+  text-decoration: none;
+  color:blue;
+}
+.font-ul:hover{
+  display: block;
+}
+.ul1::hover{
+  display: block;
+}
+.buttonx{
+  float: left;
+}
 .header a {
   float: left;
   color: black;
@@ -38,7 +57,7 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: rgb(218, 83, 83);
   color: black;
 }
 
@@ -63,7 +82,7 @@ body {
   }
 }
 .p1 {
-        font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+        font-family: 'Raleway';
         font-size: large;
 
       }
@@ -98,8 +117,6 @@ background-color: black;
 color:#474e5d;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -213,7 +230,7 @@ display: table;
 
 .font1
 {
-font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+font-family: 'Raleway';
 font-size: 20px;
 text-decoration: none;
 
@@ -239,48 +256,19 @@ background-color: #888;
 }
 
 .font2{
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+  font-family: 'Raleway'; 
   font-size: 30px;
 }
 
-.tdtext{
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
-  font-size: 70px;
-  color: rgb(0, 255, 136);
-  text-shadow:     0 1px 0 rgb(100, 214, 195),
-	                 0 2px 0 rgb(156, 84, 173),
-	                 0 3px 0 rgb(156, 84, 173),
-	                 0 4px 0 rgb(156, 84, 173),
-	                 0 5px 0 rgb(156, 84, 173),
-	                 0 6px 0 rgb(156, 84, 173),
-	                 0 7px 0 rgb(156, 84, 173),
-	                 0 8px 0 rgb(156, 84, 173),
-	
-	                 0 0 5px rgba(0,0,0,.05),
-	                0 1px 3px rgba(0,0,0,.2),
-	                0 3px 5px rgba(0,0,0,.2),
-	               0 5px 10px rgba(0,0,0,.2),
-	              0 10px 10px rgba(0,0,0,.2),
-	              0 20px 20px rgba(0,0,0,.3);
-}
-
-.loginsign{
-  color: rgb(0, 255, 42);
-  text-shadow:     0 1px 0 rgb(100, 214, 195),
-	                 0 2px 0 rgb(156, 84, 173),
-	                 0 3px 0 rgb(156, 84, 173),
-	                 0 4px 0 rgb(156, 84, 173),
-	                 0 5px 0 rgb(156, 84, 173),
-	                 0 6px 0 rgb(156, 84, 173),
-	                 0 7px 0 rgb(156, 84, 173),
-	                 0 8px 0 rgb(156, 84, 173),
-	
-	                 0 0 5px rgb(180, 89, 89),
-	                0 1px 3px rgba(0,0,0,.2),
-	                0 3px 5px rgba(0,0,0,.2),
-	               0 5px 10px rgba(0,0,0,.2),
-	              0 10px 10px rgba(0,0,0,.2),
-	              0 20px 20px rgba(0,0,0,.3);
+.title{
+  font-family: 'Raleway';
+  font-size: 60px;
+  color: greenyellow;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
 
 abbr[title] {
@@ -315,7 +303,7 @@ abbr[title] {
 }
 
 .tdtext1{
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+  font-family: 'Raleway';
   font-size: 70px;
   color: rgb(191, 220, 240);
   text-shadow:     0 1px 0 rgb(100, 214, 195),
@@ -410,9 +398,16 @@ abbr[title] {
   background: url() repeat;
 }
 
-
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 .tdtext3{
-  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+  font-family: 'Raleway';
   font-size: 50px;
   color: rgb(18, 57, 233);
   text-shadow:     0 1px 0 rgb(100, 214, 195),
@@ -430,5 +425,9 @@ abbr[title] {
 }
 
 .date2{
+  margin-top: -200px;
+  font-family: 'Courier New', Courier, monospace;
   padding-left: 10px;
+  float: right; 
+  color:white;
 }

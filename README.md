@@ -49,6 +49,6 @@ If you have any feedback, please reach out to me at exlphy@gmail.com
 
 
 ## Authors
-- [@Plushb9rry](https://github.com/Plushb9rry)
+- [@20CE034](https://github.com/20CE034)
 - [@1VViraj](https://github.com/1VViraj)
 - [@kenil-gor](https://github.com/kenil-gor)

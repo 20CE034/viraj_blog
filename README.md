@@ -5,7 +5,7 @@
 
 # Link to site 
 
-[Click Here](https://plushb9rry.github.io/viraj_blog/)
+[Click Here](https://20ce034.github.io/viraj_blog/)
 
 
 ## 🚀 Roadmap

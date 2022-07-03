@@ -1,433 +1,521 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway';
+}
 
-body { 
-  margin: 0px;
-  padding: 0px;
-  font-family: 'Raleway';
-}
 #grad {
-  background-image: linear-gradient(red, rgb(0, 255, 0), rgb(6, 238, 255));
+    background-image: linear-gradient(red, rgb(0, 255, 0), rgb(6, 238, 255));
 }
+
 .header {
-  overflow: hidden;
-  background-image: url(./Images/Header.jpg);
-  background-size: 1700px 310px;
-  padding: 10px 10px;
-  background-repeat: no-repeat;
-  background-size:cover ;
+    overflow: hidden;
+    background-image: url(./Images/Header.jpg);
+    background-size: 1700px 310px;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 img {
-  pointer-events: none;
+    pointer-events: none;
 }
-.ul1{
-  text-decoration: none;
-  float:left;
-  font-weight: bolder;
-  color: black;
-  padding-left:-20px;
+
+.ul1 {
+    text-decoration: none;
+    float: left;
+    font-weight: bolder;
+    color: black;
+    padding-left: -20px;
 }
-.font-ul{
-  font-size: 30px;
-  padding-left: 10px;
-  text-decoration: none;
-  color:blue;
+
+.font-ul {
+    font-size: 30px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: blue;
 }
-.font-ul:hover{
-  display: block;
+
+.font-ul:hover {
+    display: block;
 }
-.ul1::hover{
-  display: block;
+
+.ul1::hover {
+    display: block;
 }
-.buttonx{
-  float: left;
+
+.buttonx {
+    color: white;
+    float: left;
 }
+
 .header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 15px;
-  border-radius: 4px;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 4px;
 }
 
 .header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .header a:hover {
-  background-color: rgb(218, 83, 83);
-  color: black;
+    background-color: rgb(218, 83, 83);
+    color: black;
 }
 
 .header a.active {
-  background-color: dodgerblue;
-  color: white;
+    background-color: dodgerblue;
+    color: white;
 }
 
 .header-right {
-  float: right;
+    float: right;
 }
 
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
 }
-.p1 {
-        font-family: 'Raleway';
-        font-size: large;
 
-      }
-    #leftbox {
-        float:left; 
-        background:rgb(255, 255, 255);
-        width:50%;
-        height:850px;
-        border-spacing:0 0;
-        background-image: url();
-        background-size: 1000px 850px;
-        
-      }
-    
-    #rightbox{
-        float:right;
-        background:rgb(212, 212, 212);
-        width:50%;
-        height:850px;
-        border-spacing:0 0;
-        background-image: url();
-      
-    }
-    h1{
-        color:green;
-        text-align:center;
-    }
+.p1 {
+    font-family: 'Raleway';
+    font-size: large;
+}
+
+#leftbox {
+    float: left;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    height: 850px;
+    border-spacing: 0 0;
+    background-image: url();
+    background-size: 1000px 850px;
+}
+
+#rightbox {
+    float: right;
+    background: rgb(212, 212, 212);
+    width: 50%;
+    height: 850px;
+    border-spacing: 0 0;
+    background-image: url();
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
 footer {
-text-align: center;
-padding: 3px;
-background-color: black;
-color:#474e5d;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: #474e5d;
 }
 
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
-width: 30%;
-padding: 15px;
-margin: 5px 0 22px 0;
-display: inline-block;
-border: none;
-background: #f1f1f1;
+
+input[type=text],
+input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
+
 
 /* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-background-color: #ddd;
-outline: none;
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
 }
 
+
 /* Set a style for all buttons */
+
 button {
-  background-color: #1eff00;
-  color: rgb(255, 251, 0);
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 30%;
-opacity: 0.9;
+    background-color: #1eff00;
+    color: rgb(255, 251, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
 }
 
 button:hover {
-opacity:1;
-background-color: #ff0606;
-color: rgb(0, 38, 255);
-
+    opacity: 1;
+    background-color: #ff0606;
+    color: rgb(0, 38, 255);
 }
+
 
 /* Extra styles for the cancel button */
+
 .cancelbtn {
-padding: 14px 20px;
-background-color: #f44336;
+    padding: 14px 20px;
+    background-color: #f44336;
 }
+
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn .logbtn{
-float: left;
-width: 20%;
+
+.cancelbtn,
+.signupbtn .logbtn {
+    float: left;
+    width: 20%;
 }
+
 
 /* Add padding to container elements */
+
 .container {
-padding: 16px;
+    padding: 16px;
 }
+
 
 /* The signup (background) */
+
 .signup {
-display: none; /* Hidden by default */
-position: fixed; /* Stay in place */
-z-index: 1; /* Sit on top */
-left: 0;
-top: 0;
-width: 100%; /* Full width */
-height: 100%; /* Full height */
-overflow: auto; /* Enable scroll if needed */
-background-color: #474e5d;
-padding-top: 50px;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
 }
+
 
 /* signup Content/Box */
+
 .signup-content {
-background-color: #fefefe;
-margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-border: 1px solid #888;
-width: 80%; /* Could be more or less, depending on screen size */
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
 }
+
 
 /* Style the horizontal ruler */
+
 hr {
-border: 1px solid #f1f1f1;
-margin-bottom: 25px;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
 }
 
+
 /* The Close Button (x) */
+
 .close {
-position: absolute;
-right: 35px;
-top: 15px;
-font-size: 40px;
-font-weight: bold;
-color: #f1f1f1;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
 }
 
 .close:hover,
 .close:focus {
-color: #f44336;
-cursor: pointer;
+    color: #f44336;
+    cursor: pointer;
 }
-
 
 .clearfix::after {
-content: "";
-clear: both;
-display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
-
 
 @media screen and (max-width: 300px) {
-.cancelbtn, .signupbtn {
-   width: 100%;
-}
-}
-
-.font1
-{
-font-family: 'Raleway';
-font-size: 20px;
-text-decoration: none;
-
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
 }
 
-
-.navg{
-display:inline;
-font-size: 30px;
-font-weight: 600;
-padding: 10px;
-color: rgb(0, 0, 0);
-/*background-color: #ddd; */
+.font1 {
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-decoration: none;
 }
 
-.li1:hover{
-background-color: #888;
+.navg {
+    display: inline;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    /*background-color: #ddd; */
 }
 
-.color1
-{
-  color: rgb(0, 141, 141);
+.li1:hover {
+    background-color: #888;
 }
 
-.font2{
-  font-family: 'Raleway'; 
-  font-size: 30px;
+.color1 {
+    color: rgb(0, 141, 141);
 }
 
-.title{
-  font-family: 'Raleway';
-  font-size: 60px;
-  color: greenyellow;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+.font2 {
+    font-family: 'Raleway';
+    font-size: 30px;
+}
+
+::selection {
+    color: red;
+    background: rgba(32, 87, 1, 0.39);
+}
+
+.title {
+    font-family: 'Raleway';
+    font-size: 60px;
+    background: -webkit-linear-gradient( rgb(34, 145, 0), rgb(191, 255, 172), rgb(191, 255, 172));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 abbr[title] {
-  border-bottom: none !important;
-  cursor: inherit !important;
-  text-decoration: none !important;
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
 }
 
-.opacity{
-  opacity: 0.4;
-  filter: alpha(opacity=40); 
+.opacity {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 
 .transparentbox {
-  opacity: 0.9;
-  margin: 10px;
-  height: 550px;
-  border: 1px solid rgba(2, 2, 2, 0);
-  background-color: #ffffff4d;
-  filter: alpha(opacity=60);
+    opacity: 0.9;
+    margin: 10px;
+    height: 600px;
+    border: 1px solid rgba(2, 2, 2, 0);
+    background-color: #ffffff4d;
+    filter: alpha(opacity=60);
 }
 
 .transparentbox p {
-  margin: 5%;
-  color: #000000;
-  font-weight: bold;
+    margin: 5%;
+    color: #000000;
+    font-weight: bold;
 }
 
 .background1 {
-
-  background: url() repeat;
+    background: url() repeat;
 }
 
-.tdtext1{
-  font-family: 'Raleway';
-  font-size: 70px;
-  color: rgb(191, 220, 240);
-  text-shadow:     0 1px 0 rgb(100, 214, 195),
-	                 0 2px 0 rgb(156, 84, 173),
-	                 0 3px 0 rgb(156, 84, 173),
-	                 0 4px 0 rgb(156, 84, 173),
-	                 0 5px 0 rgb(156, 84, 173),
-	                 0 6px 0 rgb(156, 84, 173),
-	                 0 7px 0 rgb(156, 84, 173),
-	                 0 8px 0 rgb(156, 84, 173),
-	
-	                 0 0 5px rgba(0,0,0,.05),
-	                0 1px 3px rgba(0,0,0,.2),
-	                0 3px 5px rgba(0,0,0,.2),
-	               0 5px 10px rgba(0,0,0,.2),
-	              0 10px 10px rgba(0,0,0,.2),
-	              0 20px 20px rgba(0,0,0,.3);
+.tdtext1 {
+    font-family: 'Raleway';
+    font-size: 70px;
+    color: rgb(191, 220, 240);
+    text-shadow: 0 1px 0 rgb(100, 214, 195), 0 2px 0 rgb(156, 84, 173), 0 3px 0 rgb(156, 84, 173), 0 4px 0 rgb(156, 84, 173), 0 5px 0 rgb(156, 84, 173), 0 6px 0 rgb(156, 84, 173), 0 7px 0 rgb(156, 84, 173), 0 8px 0 rgb(156, 84, 173), 0 0 5px rgba(0, 0, 0, .05), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
 }
 
-.backg{
-  background-color: #ffffff4d;
-  
+.backg {
+    background-color: #ffffff4d;
 }
 
 #leftbox1 {
-  float:left; 
-  background-image: linear-gradient(rgba(87, 221, 255, 0.788), rgba(0, 247, 234, 0.986), rgb(172, 236, 236));
-  width:50%;
-  height:400px;
-  border-spacing:0 0;
-  
-  
+    float: left;
+    background-image: linear-gradient(rgba(87, 221, 255, 0.788), rgba(0, 247, 234, 0.986), rgb(172, 236, 236));
+    width: 50%;
+    height: 400px;
+    border-spacing: 0 0;
 }
 
 #rightbox1 {
-  float:right;
-  background-image: linear-gradient(rgba(87, 221, 255, 0.788), rgba(0, 247, 234, 0.986), rgb(172, 236, 236));
-  width:50%;
-  height:400px;
- 
-
+    float: right;
+    background-image: linear-gradient(rgba(87, 221, 255, 0.788), rgba(0, 247, 234, 0.986), rgb(172, 236, 236));
+    width: 50%;
+    height: 400px;
 }
 
 .vertical-menu {
-  width: 200px;
+    width: 200px;
 }
 
 .vertical-menu a {
-  background-color: rgba(238, 238, 238, 0);
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+    background-color: rgba(238, 238, 238, 0);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
 }
 
 .vertical-menu a:hover {
-  background-color: rgb(19, 188, 255);
+    background-color: rgb(19, 188, 255);
 }
 
 .vertical-menu a.active {
-  background-color: #04AA6D;
-  color: white;
+    background-color: #04AA6D;
+    color: white;
 }
 
-.bg{
-  background-image: url(./Images/background.jpeg);
-  background-size:1575px 1700px ;
-  background-repeat: no-repeat;
-  background-size:cover ;
+.bg {
+    background-image: url(./Images/background.jpeg);
+    background-size: 1575px 1700px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 
 .transparentbox2 {
-  opacity: 0.9;
-  margin: 0px;
-  height: 1250px;
-  width: 1500;
-  border: 0px solid rgba(2, 2, 2, 0);
-  background-color: #ffffff4d;
-  filter: alpha(opacity=60);
+    opacity: 0.9;
+    margin: 0px;
+    height: 1250px;
+    width: 1500;
+    border: 0px solid rgba(2, 2, 2, 0);
+    background-color: #ffffff4d;
+    filter: alpha(opacity=60);
 }
 
 .transparentbox2 p {
-  margin: 5%;
-  color: #000000;
-  font-weight: bold;
+    margin: 5%;
+    color: #000000;
+    font-weight: bold;
 }
 
-
 .background2 {
-
-  background: url() repeat;
+    background: url() repeat;
 }
 
 .unselectable {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.tdtext3{
-  font-family: 'Raleway';
-  font-size: 50px;
-  color: rgb(18, 57, 233);
-  text-shadow:     0 1px 0 rgb(100, 214, 195),
-	                 0 2px 0 rgb(156, 84, 173),
-	                 0 3px 0 rgb(156, 84, 173),
-	                 0 4px 0 rgb(27, 27, 27),
-	                 0 5px 0 rgb(156, 84, 173),
-	                 0 6px 0 rgb(156, 84, 173),
-	                 0 7px 0 rgb(156, 84, 173),
-	                 0 8px 0 rgb(156, 84, 173),
-	
-	                 0 0 5px rgba(0,0,0,.05),
-	                0 1px 3px rgba(0,0,0,.2),
-
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.date2{
-  margin-top: -200px;
-  font-family: 'Courier New', Courier, monospace;
-  padding-left: 10px;
-  float: right; 
-  color:white;
+.tdtext3 {
+    font-family: 'Raleway';
+    font-size: 50px;
+    color: rgb(18, 57, 233);
+    text-shadow: 0 1px 0 rgb(100, 214, 195), 0 2px 0 rgb(156, 84, 173), 0 3px 0 rgb(156, 84, 173), 0 4px 0 rgb(27, 27, 27), 0 5px 0 rgb(156, 84, 173), 0 6px 0 rgb(156, 84, 173), 0 7px 0 rgb(156, 84, 173), 0 8px 0 rgb(156, 84, 173), 0 0 5px rgba(0, 0, 0, .05), 0 1px 3px rgba(0, 0, 0, .2),
+}
+
+.date2 {
+    margin-top: -200px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    float: right;
+    color: white;
+}
+
+.para {
+    color: palevioletred;
+    font-size: 30px;
+    text-align: justify;
+}
+
+
+/* Nav */
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: rgba(51, 51, 51, 0);
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    transition: 0.6s;
+    background-color: rgb(137, 255, 101);
+    color: black;
+}
+
+
+/* Add an active class to highlight the current page */
+
+.topnav a.active {
+    background: linear-gradient( rgba(41, 247, 0, 0.986), rgb(172, 236, 183));
+    color: white;
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
